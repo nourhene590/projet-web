@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Réservation Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#Acceuil">Acceuil</a></li>
+                <li><a href="#Réserver">Réserver</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="réservation">
+        <h2>Réservez une chambre</h2>
+        <form id="réservation"form>
+            <label for="Name">Nom et prénom:</label>
+            <input type="text"id="Name" Name="Name" required>
+            <label for="Email">Email:</label>
+            <input type="text"id="Email" Name="Email" required>
+            <label for="Checkin">Date d'arrivée:</label>
+            <input type="Date"id="Checkin" Name="Checkin" required>
+            <label for="Checkout">Date de départ:</label>
+            <input type="Date"id="Checkout" Name="Checkout" required>
+            <button type="submit">Réserver</button>
+            <form>
+                <div id="confirmation message" class="hidden">
+                    <p>Merci ,la réservation est confirmée!</p>
+                </div>
+            </form>
+    </section>
+    <section id="contact">
+        <h2> Contactez nous</h2>
+        <p><b>Pour toute question ,appelez nous sur 51 222 560</b></p>
+    </section>
+    <footer>
+        <p>&COPY;2025 Hotel LAICO.Tout droit réservés</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
